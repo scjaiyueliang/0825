@@ -39,7 +39,7 @@ int get_file_num(char* root)
     closedir(dir);
     return total;
 }
-
+//
 int main(int argc, char* argv[])
 {
     if(argc < 2)
